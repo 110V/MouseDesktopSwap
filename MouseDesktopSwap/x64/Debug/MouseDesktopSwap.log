@@ -1,0 +1,5 @@
+﻿  main.cpp
+C:\Users\sgb16\source\repos\MouseDesktopSwap\MouseDesktopSwap\keys.h(104,2): warning C4091:  'typedef ': 변수를 선언하지 않으면 'Keys' 왼쪽은 무시됩니다.
+C:\Users\sgb16\source\repos\MouseDesktopSwap\MouseDesktopSwap\main.cpp(13,2): warning C4091:  'typedef ': 변수를 선언하지 않으면 'KeyState' 왼쪽은 무시됩니다.
+C:\Users\sgb16\source\repos\MouseDesktopSwap\MouseDesktopSwap\main.cpp(21,2): warning C4091:  'typedef ': 변수를 선언하지 않으면 'InputKey' 왼쪽은 무시됩니다.
+  MouseDesktopSwap.vcxproj -> C:\Users\sgb16\source\repos\MouseDesktopSwap\x64\Debug\MouseDesktopSwap.exe

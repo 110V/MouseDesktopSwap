@@ -1,0 +1,9 @@
+﻿  main.cpp
+C:\Users\sgb16\source\repos\MouseDesktopSwap\MouseDesktopSwap\keys.h(104,2): warning C4091:  'typedef ': 변수를 선언하지 않으면 'Keys' 왼쪽은 무시됩니다.
+C:\Users\sgb16\source\repos\MouseDesktopSwap\MouseDesktopSwap\main.cpp(13,2): warning C4091:  'typedef ': 변수를 선언하지 않으면 'KeyState' 왼쪽은 무시됩니다.
+C:\Users\sgb16\source\repos\MouseDesktopSwap\MouseDesktopSwap\main.cpp(21,2): warning C4091:  'typedef ': 변수를 선언하지 않으면 'InputKey' 왼쪽은 무시됩니다.
+  코드를 생성하고 있습니다.
+  Previous IPDB not found, fall back to full compilation.
+  All 3 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  코드를 생성했습니다.
+  MouseDesktopSwap.vcxproj -> C:\Users\sgb16\source\repos\MouseDesktopSwap\x64\Release\MouseDesktopSwap.exe

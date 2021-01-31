@@ -1,0 +1,13 @@
+﻿  main.cpp
+C:\Users\sgb16\source\repos\MouseDesktopSwap\MouseDesktopSwap\keys.h(104,2): warning C4091:  'typedef ': 변수를 선언하지 않으면 'Keys' 왼쪽은 무시됩니다.
+C:\Users\sgb16\source\repos\MouseDesktopSwap\MouseDesktopSwap\main.cpp(13,2): warning C4091:  'typedef ': 변수를 선언하지 않으면 'KeyState' 왼쪽은 무시됩니다.
+C:\Users\sgb16\source\repos\MouseDesktopSwap\MouseDesktopSwap\main.cpp(21,2): warning C4091:  'typedef ': 변수를 선언하지 않으면 'InputKey' 왼쪽은 무시됩니다.
+main.obj : error LNK2019: __imp__interception_create_context 외부 기호(참조 위치: _main 함수)에서 확인하지 못했습니다.
+main.obj : error LNK2019: __imp__interception_destroy_context 외부 기호(참조 위치: _main 함수)에서 확인하지 못했습니다.
+main.obj : error LNK2019: __imp__interception_set_filter 외부 기호(참조 위치: _main 함수)에서 확인하지 못했습니다.
+main.obj : error LNK2019: __imp__interception_wait 외부 기호(참조 위치: _main 함수)에서 확인하지 못했습니다.
+main.obj : error LNK2019: __imp__interception_send 외부 기호(참조 위치: "void __cdecl sendKeyEvent(enum Keys,enum KeyState,bool,void *,int)" (?sendKeyEvent@@YAXW4Keys@@W4KeyState@@_NPAXH@Z) 함수)에서 확인하지 못했습니다.
+main.obj : error LNK2019: __imp__interception_receive 외부 기호(참조 위치: _main 함수)에서 확인하지 못했습니다.
+main.obj : error LNK2019: __imp__interception_is_keyboard 외부 기호(참조 위치: _main 함수)에서 확인하지 못했습니다.
+main.obj : error LNK2019: __imp__interception_is_mouse 외부 기호(참조 위치: _main 함수)에서 확인하지 못했습니다.
+C:\Users\sgb16\source\repos\MouseDesktopSwap\Debug\MouseDesktopSwap.exe : fatal error LNK1120: 8개의 확인할 수 없는 외부 참조입니다.
