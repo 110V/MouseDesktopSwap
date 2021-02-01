@@ -47,9 +47,7 @@ int main()
 
 	context = interception_create_context();
 
-	interception_set_filter(context, interception_is_mouse,
-		FORWARD_DOWN | FORWARD_UP |
-		BACKWARD_DOWN | BACKWARD_UP);
+
 	interception_set_filter(context, interception_is_keyboard,
 		INTERCEPTION_FILTER_KEY_ALL);
 
@@ -61,6 +59,9 @@ int main()
 		{
 			keyboardDevice = device;
 			interception_set_filter(context, interception_is_keyboard, NULL);
+			interception_set_filter(context, interception_is_mouse,
+				FORWARD_DOWN | FORWARD_UP |
+				BACKWARD_DOWN | BACKWARD_UP);
 			interception_send(context, device, &stroke, 1);
 			continue;
 		}
